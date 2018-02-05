@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+html.daily {
+    background-image: url("https://source.unsplash.com/collection/1501932/5000x3000/daily");
+}
+
+html.random {
+    background-image: url("https://source.unsplash.com/collection/1501932/5000x3000/");
+}
+
+html {
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .6;
+}
+
+body {
+    background-color: rgba(0,0,0,.9);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    padding: 3rem;
+    text-align: center;
+    max-width: 60rem;
+}
+
+.reference {
+    opacity: .5;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.github {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
